@@ -1,1 +1,10 @@
 
+ gcc -g p2original.c
+ ./a.out
+enter a number
+5
+enter a number
+4
+enter a number
+7
+5!=4!=7  is: scalene
