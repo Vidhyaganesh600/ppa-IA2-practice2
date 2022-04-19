@@ -1,1 +1,7 @@
-
+gcc -g p4original.c
+ ./a.out
+enter the size of array
+5
+enter the numbers into the array
+1 2 7 8 12
+ Sum of composite number is :20
