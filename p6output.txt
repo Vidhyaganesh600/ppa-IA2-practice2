@@ -1,17 +1,5 @@
-#include<stdio.h>
-int main()
-{
-char a[100];
-input_string(a);
-int reverse_a;
-reverse_a
-int i,m=0;
-for(int i=0;a[i]!='\0';i++)
-m++;
-return m;
-for(int i=reversea-1;)
-{
-printf("%c",a[i]);
-}
-
-}
+gcc -g p6original.c
+ ./a.out
+Enter any string 
+hello
+olleh 

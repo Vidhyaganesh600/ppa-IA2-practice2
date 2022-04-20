@@ -1,4 +1,4 @@
-#include<stdio.h>
+/*#include<stdio.h>
 void input_string(char *a)
 {
   char i;
@@ -25,7 +25,7 @@ int main()
   input_string(a);
   int reverse_a;
   reverse_a=str_reverse(a);
-  output(a,&reverse_a);
+  output(a,reverse_a);
   return 0;
 }
 
@@ -101,3 +101,33 @@ int main()
   output(n,t,smallest);
   return 0;
 }*/
+
+#include<stdio.h>
+void input(char *a)
+{
+printf("Enter any string \n");
+scanf("%s",a);
+}
+int reverse(char *a)
+{
+int p;
+for(int i=0;a[i]!='\0';i++)
+{
+p=i;
+}
+return p;
+} 
+void output(char *a, int reverse)
+{
+ for(int i=reverse;i>=0;i--)
+printf("%c",a[i]);
+}
+int main()
+{
+char s[50];
+int result;
+input(s);
+result=reverse(s);
+output(s, result);
+return 0;
+}
